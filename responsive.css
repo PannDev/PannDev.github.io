@@ -1,0 +1,238 @@
+/* Responsive */
+
+@media (min-width:992px) {
+    .main_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* Max Tablet */
+@media (max-width:922px) {
+    .section_tentang_saya_content,.project_cf_store_content {
+        padding: 0 15px;
+    }
+
+    .section_tentang_saya p {
+        font-size: 14px;
+    }
+
+    .project_cftore_img a {
+        padding-top: 25%;
+    }
+
+    footer, .logo_header {
+        padding-left: 15px;
+    }
+}
+
+/* Max Mobile */
+@media (max-width:768px) {
+
+    /* Burger Style */
+    .burger_menu {
+        display: block;
+    }
+
+    .nav_center {
+        display: none;
+        margin-top: 20px;
+    }
+
+    .menu_active,
+    .nav_center {
+        display: block;
+    }
+
+    .menu_active,
+    .menu_navigasi {
+        display: block;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    .nav_center ul li a {
+        display: block !important;
+        padding-left: 15px;
+        font-size: 20px;
+    }
+
+    /*  */
+
+    header a:hover::after {
+        display: none;
+    }
+}
+
+/* Max S - M - L Mobile */
+@media (max-width: 540px) {
+
+    /* Burger Style */
+    .burger_menu {
+        display: block;
+    }
+
+    .nav_center {
+        display: none;
+    }
+
+    .menu_active,
+    .nav_center {
+        display: block;
+    }
+
+    .menu_active,
+    .menu_navigasi {
+        display: block;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    .nav_center ul li {
+        display: block !important;
+        margin: 7px 0;
+        font-size: 12px;
+    }
+
+    header nav a {
+        display: block;
+    }
+
+    .menu_active .menu_mobile {
+        display: block;
+    }
+
+    .menu_active header {
+        min-height: 100vh;
+        background-color: rgb(245, 245, 245);
+    }
+
+    /*  */
+
+    h2,
+    h3 {
+        font-size: 16px !important;
+    }
+
+    h4,
+    h5,
+    h6 {
+        font-size: 15px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    h1 {
+        padding-left: 15px;
+        font-size: 28px;
+    }
+
+    .main_section {
+        margin-top: -30px !important;
+    }
+
+    .main_section h2,
+    .main_section h4 {
+        letter-spacing: 2px;
+    }
+
+    .main_section_img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .main_section_content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main_section_content--wrapper h2,
+    h4,
+    span {
+        text-align: center;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .main_section_content h2 span {
+        font-size: 44px;
+        font-weight: 900;
+    }
+
+    .main_section_button a {
+        font-size: 13px !important;
+        padding: 10px;
+    }
+
+    .main_section_button {
+        display: flex;
+        align-items: center;
+    }
+
+    .main_section_button .btn {
+        padding: unset;
+        max-width: unset;
+    }
+
+    .section_tentang_saya {
+        margin-top: 15px;
+    }
+
+    .section_tentang_saya_img img {
+        display: none;
+    }
+
+    .hai_ini_aku {
+        padding: 15px;
+    }
+
+    .status_pelajar_nama p {
+        font-size: 11px !important;
+    }
+
+    .section_tentang_saya h2 {
+        margin-bottom: 0;
+    }
+
+    .status_pelajar {
+        flex-direction: unset;
+    }
+
+    .project_saya {
+        margin-top: 0px;
+    }
+
+    .project_cfstore,
+    .project_cf_store_content p {
+        padding: 15px;
+    }
+
+    footer {
+        height: unset;
+    }
+
+    footer .row {
+        flex-direction: column-reverse
+    }
+
+    footer p {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .footer_nav {
+        margin-top: 15px;
+        justify-content: center;
+        letter-spacing: unset;
+    }
+
+}

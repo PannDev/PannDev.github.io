@@ -1,0 +1,304 @@
+/* style Grid */
+/* variable css, jadi kita bisa langsung mengubah-ubah nilai margin di column, lewat variable  */
+
+:root {
+    --margin: 15px;
+}
+
+@media (min-width: 540px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+
+/* //grid */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-nowrap {
+    flex-wrap: nowrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.row>* {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+
+}
+
+@media(max-width:768px) {
+    .row>* {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.col-1 {
+    flex: calc(8.3333333333% - var(--margin));
+    max-width: 8.3333333333%;
+}
+
+.col-2 {
+    flex: calc(16.6666666667% - var(--margin));
+    max-width: 16.6666666667%;
+}
+
+.col-3 {
+    flex: calc(25% - var(--margin));
+    max-width: 25%;
+}
+
+.col-4 {
+    flex: calc(33.3333333333% - var(--margin));
+    max-width: 33.3333333333%;
+}
+
+.col-5 {
+    flex: calc(41.6666666667% - var(--margin));
+    max-width: 41.6666666667%;
+}
+
+.col-6 {
+    flex: calc(50% - var(--margin));
+    max-width: 50%;
+}
+
+.col-6 {
+    flex: calc(50% - var(--margin));
+    max-width: 50%;
+}
+
+.col-7 {
+    flex: calc(58.3333333333% - var(--margin));
+    max-width: 58.3333333333%;
+}
+
+.col-8 {
+    flex: calc(66.6666666667% - var(--margin));
+    max-width: 66.6666666667%;
+}
+
+.col-9 {
+    flex: calc(75% - var(--margin));
+    max-width: 75%;
+}
+
+.col-10 {
+    flex: calc(83.3333333333% - var(--margin));
+    max-width: 83.3333333333%;
+}
+
+.col-11 {
+    flex: calc(91.6666666667% - var(--margin));
+    max-width: 91.6666666667%;
+}
+
+.col-12 {
+    flex: calc(100% - var(--margin));
+    max-width: 100%;
+}
+
+
+/* sm */
+
+@media (min-width:450px) {
+    .col-sm-1 {
+        flex: calc(8.3333333333% - var(--margin));
+        max-width: 8.3333333333%;
+    }
+    .col-sm-2 {
+        flex: calc(16.6666666667% - var(--margin));
+        max-width: 16.6666666667%;
+    }
+    .col-sm-3 {
+        flex: calc(25% - var(--margin));
+        max-width: 25%;
+    }
+    .col-sm-4 {
+        flex: calc(33.3333333333% - var(--margin));
+        max-width: 33.3333333333%;
+    }
+    .col-sm-5 {
+        flex: calc(41.6666666667% - var(--margin));
+        max-width: 41.6666666667%;
+    }
+    .col-sm-6 {
+        flex: calc(50% - var(--margin));
+        max-width: 50%;
+    }
+    .col-sm-6 {
+        flex: calc(50% - var(--margin));
+        max-width: 50%;
+    }
+    .col-sm-7 {
+        flex: calc(58.3333333333% - var(--margin));
+        max-width: 58.3333333333%;
+    }
+    .col-md-8 {
+        flex: calc(66.6666666667% - var(--margin));
+        max-width: 66.6666666667%;
+    }
+    .col-sm-9 {
+        flex: calc(75% - var(--margin));
+        max-width: 75%;
+    }
+    .col-sm-10 {
+        flex: calc(83.3333333333% - var(--margin));
+        max-width: 83.3333333333%;
+    }
+    .col-sm-11 {
+        flex: calc(91.6666666667% - var(--margin));
+        max-width: 91.6666666667%;
+    }
+    .col-sm-12 {
+        flex: calc(100% - var(--margin));
+        max-width: 100%;
+    }
+}
+
+
+/* md */
+
+@media (min-width:767px) {
+    .col-md-1 {
+        flex: calc(8.3333333333% - var(--margin));
+        max-width: 8.3333333333%;
+    }
+    .col-md-2 {
+        flex: calc(16.6666666667% - var(--margin));
+        max-width: 16.6666666667%;
+    }
+    .col-md-3 {
+        flex: calc(25% - var(--margin));
+        max-width: 25%;
+    }
+    .col-md-4 {
+        flex: calc(33.3333333333% - var(--margin));
+        max-width: 33.3333333333%;
+    }
+    .col-md-5 {
+        flex: calc(41.6666666667% - var(--margin));
+        max-width: 41.6666666667%;
+    }
+    .col-md-6 {
+        flex: calc(50% - var(--margin));
+        max-width: 50%;
+    }
+    .col-md-6 {
+        flex: calc(50% - var(--margin));
+        max-width: 50%;
+    }
+    .col-md-7 {
+        flex: calc(58.3333333333% - var(--margin));
+        max-width: 58.3333333333%;
+    }
+    .col-md-8 {
+        flex: calc(66.6666666667% - var(--margin));
+        max-width: 66.6666666667%;
+    }
+    .col-md-9 {
+        flex: calc(75% - var(--margin));
+        max-width: 75%;
+    }
+    .col-md-10 {
+        flex: calc(83.3333333333% - var(--margin));
+        max-width: 83.3333333333%;
+    }
+    .col-md-11 {
+        flex: calc(91.6666666667% - var(--margin));
+        max-width: 91.6666666667%;
+    }
+    .col-md-12 {
+        flex: calc(100% - var(--margin));
+        max-width: 100%;
+    }
+}
+
+
+/* lg */
+
+@media (min-width:1024px) {
+    .col-lg-1 {
+        flex: calc(8.3333333333% - var(--margin));
+        max-width: 8.3333333333%;
+    }
+    .col-lg-2 {
+        flex: calc(16.6666666667% - var(--margin));
+        max-width: 16.6666666667%;
+    }
+    .col-lg-3 {
+        flex: calc(25% - var(--margin));
+        max-width: 25%;
+    }
+    .col-lg-4 {
+        flex: calc(33.3333333333% - var(--margin));
+        max-width: 33.3333333333%;
+    }
+    .col-lg-5 {
+        flex: calc(41.6666666667% - var(--margin));
+        max-width: 41.6666666667%;
+    }
+    .col-lg-6 {
+        flex: calc(50% - var(--margin));
+        max-width: 50%;
+    }
+    .col-lg-6 {
+        flex: calc(50% - var(--margin));
+        max-width: 50%;
+    }
+    .col-lg-7 {
+        flex: calc(58.3333333333% - var(--margin));
+        max-width: 58.3333333333%;
+    }
+    .col-lg-8 {
+        flex: calc(66.6666666667% - var(--margin));
+        max-width: 66.6666666667%;
+    }
+    .col-lg-9 {
+        flex: calc(75% - var(--margin));
+        max-width: 75%;
+    }
+    .col-lg-10 {
+        flex: calc(83.3333333333% - var(--margin));
+        max-width: 83.3333333333%;
+    }
+    .col-lg-11 {
+        flex: calc(91.6666666667% - var(--margin));
+        max-width: 91.6666666667%;
+    }
+    .col-lg-12 {
+        flex: calc(100% - var(--margin));
+        max-width: 100%;
+    }
+}

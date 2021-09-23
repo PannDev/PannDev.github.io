@@ -1,0 +1,88 @@
+/* Css Reset */
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.mg-top-15 {
+    margin-top: 15px;
+}
+
+.mg-bot-15 {
+    margin-bottom: 15px;
+}
+
+.mg-tb-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mg-top-30 {
+    margin-top: 30px;
+}
+
+.mg-bot-30 {
+    margin-bottom: 30px;
+}
+
+.mg-tb-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mg-top-50 {
+    margin-top: 50px;
+}
+
+.mg-bot-50 {
+    margin-bottom: 50px;
+}
+
+.mg-tb-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 15px;
+}
