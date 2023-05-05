@@ -163,7 +163,7 @@ header .row {
 }
 
 .section_tentang_saya p {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .section_tentang_saya--wrapper {
@@ -177,7 +177,7 @@ header .row {
 }
 
 .status_pelajar {
-    margin-top: 15px;
+    margin-top: 30px;
     flex-wrap: nowrap !important;
     flex-direction: row;
     align-items: center;
@@ -185,16 +185,21 @@ header .row {
 }
 
 .status_pelajar img {
-    width: 30%;
+    /* width: 30%; */
     object-fit: cover;
 }
 
 .tk img {
+    width: 80%;
+}
+.sd img {
     width: 50%;
 }
-
 .smp img {
-    width: 35%;
+    width: 60%;
+}
+.sma img {
+    width: 60%;
 }
 
 /* Sec Project Saya */
