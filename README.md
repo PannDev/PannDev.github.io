@@ -1,2 +1,2 @@
 # PannDev.github.io
-(https://panndev.me)
+https://panndev.me
